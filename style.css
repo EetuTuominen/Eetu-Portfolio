@@ -1,0 +1,75 @@
+body{
+  background-color: rgb(243, 250, 255);
+  color: #166807;
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-weight: 940px;
+  font-weight: normal;*/
+  font-size: 12px;
+  /*font: normal 12px Arial, Helvetica, sans-serif;*/
+  line-height: 1.6em;
+  margin: 0;
+}
+}
+a:hover{
+  color:red;
+}
+a:active{
+  color:aqua;
+}
+.linkkilista li{
+  border-bottom:dotted 1px black;
+}
+.yhteydenotto label{
+  display:block;
+}
+.yhteydenotto input[type="text"], .yhteydenotto textarea{
+  padding:8px;
+  width:100%;
+  text-align:center;
+}
+.laatikko{
+  float: center;
+  width:20%;
+  border:2px solid black;
+  box-sizing: border-box;
+  margin-top:25px;
+  padding:20px;
+}
+.viesti{
+  display:block;
+}
+
+.center{
+  width:200px;
+  margin-left:50px;
+  margin-right:50px;
+}
+.linkkilista{
+  margin-top:15px;
+  border:3px white solid;
+  padding:20px;
+  border-radius:39px;
+}
+.asemointi{
+  position:fixed;
+  top:500px;
+}
+.nappula{
+  background-color: black;
+  color: white;
+  padding:10px;
+  border:none;
+  text-align:center;
+}
+.nappula:hover{
+  background-color: rgb(187, 47, 12);
+  color: white;
+}
+.asemointi{
+  position:fixed;
+  top:500px;
+}
+.tervetuloa{
+  text-align: center;
+}

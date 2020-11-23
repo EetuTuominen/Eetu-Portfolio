@@ -73,9 +73,3 @@ a:active{
 .ota yhteytta{
   width:40px;
 }
-.rainbow {
-  background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
-}
-.center{
-  display: block;
-}

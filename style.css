@@ -68,7 +68,8 @@ a:active{
 }
 .asemointi{
   position:fixed;
-  top:500px;
+  top:100px;
+  left: 0px;
 }
 .tervetuloa{
   text-align: center;

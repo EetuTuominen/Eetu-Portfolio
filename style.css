@@ -15,7 +15,7 @@ a:hover{
   color:red;
 }
 a:active{
-  color:aqua;
+  color:rgb(89, 0, 255);
 }
 .linkkilista li{
   border-bottom:dotted 1px black;
@@ -47,30 +47,30 @@ a:active{
 }
 .linkkilista{
   margin-top:15px;
-  border:3px white solid;
+  border:3px blue solid;
   padding:20px;
   border-radius:39px;
-}
-.asemointi{
-  position:fixed;
-  top:500px;
+
 }
 .nappula{
   background-color: black;
   color: white;
-  padding:10px;
-  border:none;
-  text-align:center;
+  padding:22px;
+  margin-left:15px;
 }
 .nappula:hover{
-  background-color: rgb(187, 47, 12);
+  background-color: rgb(179, 28, 28);
   color: white;
 }
 .asemointi{
   position:fixed;
-  top:100px;
-  left: 0px;
+  text-aling: center;
+  top:500px;
 }
 .tervetuloa{
   text-align: center;
 }
+.ota yhteytta{
+  width:40px;
+}
+

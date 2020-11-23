@@ -56,7 +56,7 @@ a:active{
   background-color: black;
   color: white;
   padding:22px;
-  margin-left:15px;
+  margin-right:15px;
 }
 .nappula:hover{
   background-color: rgb(179, 28, 28);
@@ -64,7 +64,7 @@ a:active{
 }
 .asemointi{
   position:fixed;
-  text-aling: center;
+  text-aling: right;
   top:500px;
 }
 .tervetuloa{
@@ -73,4 +73,9 @@ a:active{
 .ota yhteytta{
   width:40px;
 }
-
+.rainbow {
+  background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+}
+.center{
+  display: block;
+}

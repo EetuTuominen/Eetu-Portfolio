@@ -50,14 +50,7 @@ class Test extends React.Component {
         let btn_class = this.state.black ? "blackButton" : "whiteButton";
 
         return (
-             <div>
-                 <button className={btn_class}
-                         onClick={this.changeColor.bind(this)}>
-                           Button
-                  </button>
-             </div>
-        )
     }
 }
 
-ReactDOM.render(<Test />, document.querySelector("#tausta"))
+ReactDOM.render(<Test />, document.querySelector("#Tausta"))

@@ -73,3 +73,12 @@ a:active{
 .ota yhteytta{
   width:40px;
 }
+.tausta{
+  width: 80px;
+  height: 40px;
+  margin: 15px;
+}
+.whiteButton{
+  background-color: white;
+  color: black;
+}

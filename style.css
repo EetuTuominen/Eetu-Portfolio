@@ -29,11 +29,11 @@ a:active{
   text-align:center;
 }
 .laatikko{
-  float: center;
+  /*float: center;*/
   width:20%;
   border:2px solid black;
   box-sizing: border-box;
-  margin-top:25px;
+  margin:auto;
   padding:20px;
 }
 .viesti{

@@ -22,32 +22,40 @@
        <h1>Tervetuloa!</h1>
        </div>
        <h5>Eetu Tuominen 14.12.2020</h5>
+       <div id="Tausta"
+    <div id="myDIV">
+
+    <p>Tausta:</p>
+
+    <input class="Tausta" type="radio" id="teema1" name="theme" value="tumma">
+
+    <label>Tumma</label><br>
+
+    <input class="Tausta" type="radio" id="teema2" name="theme" value="vaalea">
+
+    <label>Vaalea</label><br><br>
+
+    <input class="Tausta" type="submit" value="Paina">
+
+ </div>
+    </button><br>
+    </div>
+       <div class="laatikko">
 <h1>Opinnot</h1>
 <table style="border: 2px black solid;">
   <tr>
-    <th>Opinnot</th>
     <th></th>
-    <div id="Tausta">
-    <button className={btn_class} onClick={this.changeColor.bind(this)}>
-            Tausta
-    </button><br>
-    </div>
   </tr>
   <tr>
     <td>
     Tieto- ja viestintätekniikan
     perustutkinto
-    </td><br>
-    <td></td>
+    </td>
   </tr>
-  <tr>
     <td>Peruskoulu</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td></td>
   </tr>
 </table>
+</div>
       </form>
       <div class="laatikko"><br><br>
       <label><b>Harrastuksia</b></label><br><br>
@@ -80,5 +88,6 @@
         </div>
       </div>
       </div>
+    <script src="portfolio.js"></script>
  </body>
 </html>

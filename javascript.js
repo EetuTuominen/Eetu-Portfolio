@@ -19,7 +19,7 @@ const syntymavuosi='2003'
 const lahtelainen=true; //boolean
 let naarittelematon; //undefined 
 
-console.log("syntymävuoden tyyppi:" + typeof syntymävuosi);
+console.log("syntymävuoden tyyppi:" + typeof syntymavuosi);
 console.log("Nimen tyyppi:" + typeof etunimi);
 console.log("lahtelaisuuden tyyppi:" + typeof lahtelainen);
 

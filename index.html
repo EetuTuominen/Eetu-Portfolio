@@ -6,8 +6,6 @@
   <body>
    <style type="text/css">
     #otsikko{
-     background-color: white;
-     color:blue;
      top:100px;
      left:0px;
      padding:10px;
@@ -22,22 +20,30 @@
        <h1>Tervetuloa!</h1>
        </div>
        <h5>Eetu Tuominen 14.12.2020</h5>
-       <div id="Tausta"
-    <div id="Tausta">
+<p>Asetukset</p>
 
-    <p>Tausta:</p>
+<button onclick="myFunction()">paina</button>
 
-    <input class="Tausta" type="radio" id="teema1" name="theme" value="tumma">
+<script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
+</script>
+<style>
+body {
+  padding: 25px;
+  background-color: white;
+  color: black;
+  font-size: 25px;
+}
 
-    <label>Tumma</label><br>
-
-    <input class="Tausta" type="radio" id="teema2" name="theme" value="vaalea">
-
-    <label>Vaalea</label><br><br>
-
-    <input class="Tausta" type="submit" value="Paina">
-
- </div>
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+</style>
     </button><br>
     </div>
        <div class="laatikko">
